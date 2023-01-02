@@ -11,7 +11,7 @@ public class UcgeninAlaniHesapla {
         kenar2=girdi.nextInt();
         System.out.print("3.Kenar:");
         kenar3=girdi.nextInt();
-        int u=(kenar1+kenar2+kenar3)/2;
+        double u=(kenar1+kenar2+kenar3)/2;
         alan=Math.sqrt(u*(u-kenar1)*(u-kenar2)*(u-kenar3));
         System.out.println("\nAlan: "+alan);
 
